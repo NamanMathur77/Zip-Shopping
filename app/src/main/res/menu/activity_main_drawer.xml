@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Popular">
+        <item
+            android:id="@+id/flipkart"
+
+            android:title="Flipkart" />
+        <item
+            android:id="@+id/amazon"
+            android:title="Amazon" />
+        <item
+            android:id="@+id/mynta"
+
+            android:title="Myntra" />
+        <item
+            android:id="@+id/jabong"
+            android:title="Jabong" />
+        <item
+            android:id="@+id/snapdeal"
+            android:title="Snapdeal" />
+        </item>
+    </group>
+
+    <item android:title="Garments">
+        <menu>
+            <item
+                android:id="@+id/yepme"
+                android:title="Yepme" />
+            <item
+                android:id="@+id/limeroad"
+                android:title="Limeroad" />
+            <item
+                android:id="@+id/koovs"
+                android:title="Koovs" />
+            <item
+                android:id="@+id/zivame"
+                android:title="Zivame"/>
+            <item
+                android:id="@+id/fabindia"
+                android:title="Fab India"/>
+
+            <item
+                android:id="@+id/ajio"
+                android:title="Ajio"/>
+            <item
+                android:id="@+id/tatacliq"
+                android:title="Tata Cliq"/>
+
+
+        </menu>
+    </item>
+    <item android:title="Grocery">
+        <menu>
+            <item
+                android:id="@+id/grofers"
+                android:title="Grofers"/>
+            <item
+                android:id="@+id/bigbasket"
+                android:title="Bigbasket"/>
+
+
+        </menu>
+    </item>
+    <item android:title="Food">
+        <menu>
+            <item
+                android:id="@+id/swigy"
+                android:title="Swiggy"/>
+            <item
+                android:id="@+id/foodpanda"
+                android:title="Food Panda"/>
+        </menu>
+    </item>
+    <item android:title="Eyecare">
+        <menu>
+            <item
+                android:id="@+id/lenskart"
+                android:title="Lenskart"/>
+            <item
+                android:id="@+id/coolwinks"
+                android:title="Coolwinks"/>
+        </menu>
+    </item>
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/infibeam"
+                android:title="Infibeam"/>
+            <item
+                android:id="@+id/pepperfry"
+                android:title="Pepperfry"/>
+            <item
+                android:id="@+id/firstcry"
+                android:title="First Cry"/>
+            <item
+                android:id="@+id/ebay"
+                android:title="Ebay"/>
+            <item
+                android:id="@+id/homeshop"
+                android:title="Homeshop18"/>
+        </menu>
+    </item>
+
+
+</menu>
